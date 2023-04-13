@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index"
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "keywords": [],
   "author": "BGOPC",
@@ -18,5 +19,8 @@
     "mongoose": "^7.0.3",
     "nodemon": "^2.0.22",
     "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
   }
 }
