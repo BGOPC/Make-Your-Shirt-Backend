@@ -8,7 +8,7 @@ const router = express.Router();
 
 const config = new Configuration({
     // eslint-disable-next-line no-undef
-    apiKey: process.env.OPENAI_API_KEY,
+  apiKey: process.env.OPENAI_API_KEY,
 });
 
 const openai = new OpenAIApi(config);
